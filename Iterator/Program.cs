@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
@@ -7,73 +6,6 @@ using System.Threading.Tasks;
 
 namespace Iterator
 {
-
-    interface IAggregate<T>
-    {
-        IIterator<T> Iterator();
-    }
-
-    interface IIterator<T>
-    {
-        bool HasNext();
-        T Next();
-    }
-
-    class BookShelfIterator : IIterator<Book>
-    {
-        private BookShelf bookShelf;
-        private int index;
-        public BookShelfIterator(BookShelf bs)
-        {
-            bookShelf = bs;
-            index = 0;
-        }
-        public bool HasNext()
-        {
-            return index < bookShelf.GetLength();
-        }
-
-        public Book Next()
-        {
-            return bookShelf.GetBookAt(index++);
-        }
-    }
-
-    class BookShelf : IAggregate<Book>
-    {
-        private List<Book> Books = new List<Book>();
-
-        public Book GetBookAt(int i)
-        {
-            return Books[i];
-        }
-
-        public void AppendBook(Book b)
-        {
-            Books.Add(b);
-        }
-
-        public int GetLength()
-        {
-            return Books.Count;
-        }
-
-        public IIterator<Book> Iterator()
-        {
-            return new BookShelfIterator(this);
-        }
-    }
-
-    class Book
-    {
-        public Book(string n)
-        {
-            Name = n;
-        }
-        public string Name { get; set; }
-    }
-
-
     class Program
     {
         static void Main(string[] args)
