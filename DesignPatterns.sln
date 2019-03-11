@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAdapter", "Delegate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{D2A8BED8-6227-483E-9915-F5DF8FC2F76F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{0DD0BCD3-43EE-41B0-9A23-65F46E9CC5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{A066C5BF-62F4-44B6-9E5F-0C0A1B739068}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D2A8BED8-6227-483E-9915-F5DF8FC2F76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A8BED8-6227-483E-9915-F5DF8FC2F76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A8BED8-6227-483E-9915-F5DF8FC2F76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD0BCD3-43EE-41B0-9A23-65F46E9CC5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD0BCD3-43EE-41B0-9A23-65F46E9CC5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD0BCD3-43EE-41B0-9A23-65F46E9CC5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD0BCD3-43EE-41B0-9A23-65F46E9CC5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A066C5BF-62F4-44B6-9E5F-0C0A1B739068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A066C5BF-62F4-44B6-9E5F-0C0A1B739068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A066C5BF-62F4-44B6-9E5F-0C0A1B739068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A066C5BF-62F4-44B6-9E5F-0C0A1B739068}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
