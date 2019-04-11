@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{F035731C-8815-4E8C-AA48-3E6760D2EC98}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{A66D412B-06B8-4171-A63A-E88D474EA907}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composit", "Composit\Composit.csproj", "{198B7356-4D5A-49B8-9CB9-4237F10A7B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{53B64412-FBB4-471A-8A2D-E7750F498293}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{198B7356-4D5A-49B8-9CB9-4237F10A7B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198B7356-4D5A-49B8-9CB9-4237F10A7B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198B7356-4D5A-49B8-9CB9-4237F10A7B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B64412-FBB4-471A-8A2D-E7750F498293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B64412-FBB4-471A-8A2D-E7750F498293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B64412-FBB4-471A-8A2D-E7750F498293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B64412-FBB4-471A-8A2D-E7750F498293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
