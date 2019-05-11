@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="State.Program">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.Operation">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAABAEQAA=</HashCode>
+      <FileName>Operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.StateContextManager">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEAAAAABAAIAAAAAAAAAIEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>StateContextManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.State">
+    <Position X="6.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAARBEAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.State0Dollars">
+    <Position X="0.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAARAEAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>State0Dollars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.State5Dollars">
+    <Position X="6.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAARAEAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>State5Dollars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.State10Dollars">
+    <Position X="12.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAARAEAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>State10Dollars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.State15Dollars">
+    <Position X="3.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAARAEAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>State15Dollars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.State20Dollars">
+    <Position X="9.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAARAEAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>State20Dollars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
